@@ -1,0 +1,6 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use CGI;
+print CGI::header();
+print 'k4mpr3t on CGI';

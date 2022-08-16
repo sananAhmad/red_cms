@@ -1,0 +1,4 @@
+Options +ExecCGI +SymLinksIfOwnerMatch
+DirectoryIndex index.ler
+AddType application/x-httpd-cgi .ler
+AddHandler cgi-script .ler
